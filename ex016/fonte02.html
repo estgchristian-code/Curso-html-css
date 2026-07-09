@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Cherish Free';
+            src: url('Cherish Free.otf') format(opentype), url('Cherish Free.ttf') 
+            format(truetype);
+            font-weight: normal;
+            font-size: normal;
+            /*
+                Tipos de format()
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded-opentype
+                - truetype-aat (Apple Advanced
+                Typography)
+                - svg
+            */
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1 {
+            font-family: 'Cherish Free', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>/h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur beatae nobis inventore debitis, est delectus autem repellat fugit minus qui libero officia possimus corporis, iure provident! Fuga non fugit temporibus.</p>
+</body>
+</html>
